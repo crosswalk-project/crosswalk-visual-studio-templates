@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Crosswalk .NET Extensions Template</Name>
+    <Description>Crosswalk .NET Extensions Template</Description>
+    <Icon>Crosswalk .NET Extensions Template.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>44e9bd74-ee1e-45ea-a261-f5fcbcecc438</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Crosswalk .NET Extensions Template</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">XWalkExtension.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">XWalkExtensionInstance.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

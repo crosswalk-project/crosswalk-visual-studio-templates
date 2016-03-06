@@ -19,8 +19,7 @@ namespace xwalk
 
     public String ExtensionAPI()
     {
-      return
-        @"";
+      return xwalk_dotnet.Properties.Resources.api;
     }
   }
 }

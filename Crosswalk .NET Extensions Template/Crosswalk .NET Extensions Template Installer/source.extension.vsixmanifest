@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Crosswalk.NETExtensionsTemplateInstaller..c5f255aa-f608-4d4e-b2d0-e5c780854691" Version="1.1" Language="en-US" Publisher="Intel Corporation" />
-    <DisplayName>Crosswalk .NET Extensions Template Installer</DisplayName>
-    <Description xml:space="preserve">VSIX Installer for Crosswalk .NET Extensions Template</Description>
+    <Identity Id="Crosswalk.NETExtensionsTemplateInstaller..c5f255aa-f608-4d4e-b2d0-e5c780854691" Version="2.0" Language="en-US" Publisher="Intel Corporation" />
+    <DisplayName>Crosswalk .NET Extensions Template</DisplayName>
+    <Description xml:space="preserve">Crosswalk .NET extensions are written in .NET, and have access to the standard .NET APIs. It allows exposing these APIs back to JavaScript in your Crosswalk Project application.</Description>
     <MoreInfo>https://crosswalk-project.org/documentation/windows.html</MoreInfo>
     <License>LICENSE.txt</License>
     <GettingStartedGuide>https://crosswalk-project.org/documentation/windows/net_extensions.html</GettingStartedGuide>
     <Icon>crosswalk.ico</Icon>
-    <Tags>Crosswalk, Templates, .NET, HTML, CSS, JS</Tags>
+    <Tags>Crosswalk, Templates, .NET, HTML, CSS, JS, Crosswalk Project</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0, 14.0]" />

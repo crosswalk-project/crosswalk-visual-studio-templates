@@ -9,14 +9,19 @@
     <SortOrder>1000</SortOrder>
     <TemplateID>44e9bd74-ee1e-45ea-a261-f5fcbcecc438</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Crosswalk .NET Extensions Template</DefaultName>
+    <DefaultName>My Crosswalk Extension</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
+    <BuildProjectOnLoad>true</BuildProjectOnLoad>
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true">XWalkExtension.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$_bridge.dll">xwalk_dotnet_bridge.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">XWalkExtensionApi.js</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">XWalkExtensionInstance.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">XWalkExtension.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

@@ -19,8 +19,7 @@ namespace xwalk
 
     public String ExtensionAPI()
     {
-      return
-        @"";
+      return $safeprojectname$.Resources.XWalkExtensionApi;
     }
   }
 }
